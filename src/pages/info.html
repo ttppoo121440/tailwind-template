@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Info 頁面</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-gray-50 font-sans text-gray-900">
+    <header class="bg-blue-600 p-6 text-center text-white shadow-md">
+      <h1 class="text-3xl font-extrabold">歡迎來到 Info 頁面</h1>
+    </header>
+
+    <main class="p-8">
+      <section class="mx-auto max-w-4xl rounded-lg bg-white p-6 shadow-md">
+        <h2 class="mb-4 text-2xl font-semibold text-gray-800">a 連接 教學</h2>
+        <p class="mb-6 text-gray-700">
+          請使用 &lt;%= base %&gt; 作為 a 連接，它會根據環境不同而有所不同。
+        </p>
+        <p>不清楚請看Code 這個範例就是使用 &lt;%= base %&gt;</p>
+        <br />
+        <p class="text-red-500">引入文件請不要使用 &lt;%= base %&gt;</p>
+        <br />
+        <a
+          href="<%= base %>index.html"
+          class="text-blue-600 underline transition-colors duration-300 hover:text-blue-800"
+        >
+          返回首頁
+        </a>
+      </section>
+    </main>
+
+    <footer class="mt-8 bg-blue-600 p-4 text-center text-white">
+      <p>&copy; 2024 My Website</p>
+    </footer>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

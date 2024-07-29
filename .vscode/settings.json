@@ -1,0 +1,18 @@
+{
+  // 設定預設的格式化工具為 Prettier
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // 允許在貼上文字時自動格式化
+  "editor.formatOnPaste": true,
+  // 允許在儲存檔案時自動格式化
+  "editor.formatOnSave": true,
+  // 設定儲存時的格式化模式為 "file"（格式化整個檔案）
+  "editor.formatOnSaveMode": "file",
+  // 將 Tailwind CSS 的語言支持包含在純文字中
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "html"
+  },
+  // 開啟字串中的快速建議功能
+  "editor.quickSuggestions": {
+    "strings": true
+  }
+}

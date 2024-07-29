@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + JS + tailwindcss v3</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+
+  <body class="leading-normal">
+    <div
+      id="app"
+      class="flex h-screen flex-col items-center justify-center py-8 text-center text-[#2c3e50] selection:bg-green-100"
+    >
+      <div>
+        <%- include('./src/components/hello.ejs') %>
+        <h3 class="my-4 text-2xl font-bold text-gray-500">
+          Vite + JS + tailwindcss v3
+        </h3>
+        <a
+          href="<%= base %>info.html"
+          class="text-green-600 underline hover:text-green-800"
+        >
+          Info base 教學
+        </a>
+        <img class="block" src="" />
+      </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
