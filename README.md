@@ -7,7 +7,7 @@
 首先，請確保你已經安裝了 Node.js。然後，在專案目錄下運行以下命令來安裝所有必要的依賴：
 
 ```sh
-npx degit ttppoo121440/tailwind your-project-name
+npx degit ttppoo121440/tailwind-tempalte your-project-name
 npm install
 ```
 
