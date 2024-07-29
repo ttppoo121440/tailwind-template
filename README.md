@@ -134,7 +134,7 @@ import MyComponent from '@/components/MyComponent';
     │          tailwind.css    # Tailwind CSS 的主要樣式檔案
     │
     ├─components               # 元件資料夾，包含專案中的 EJS 模板和可重用元件
-    │      hello.ejs            # 示例 EJS 模板
+    │      logo.ejs            # 示例 EJS 模板
     │
     ├─layout                   # 布局資料夾，可能包含應用的布局元件或模板
     └─pages                    # 頁面資料夾，包含 HTML 頁面檔案
